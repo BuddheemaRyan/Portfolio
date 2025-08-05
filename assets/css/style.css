@@ -1,3 +1,33 @@
+
+:root {
+    --primary-color: #3B82F6;
+    --secondary-color: #8B5CF6;
+    --dark-color: #1F2937;
+    --light-color: #F8FAFC;
+    --text-color: #040405;
+    --text-muted: #424752;
+    --border-color: #353942;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    --transition: all 0.3s ease;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+html {
+    scroll-behavior: smooth;
+}
 #mainNav {
     background: rgba(31, 41, 55, 0.95);
     backdrop-filter: blur(10px);
@@ -38,3 +68,38 @@
 .navbar-nav .nav-link.active::after {
     width: 100%;
 }
+.hero-section {
+    background: linear-gradient(135deg, #fcfbfb 0%, #000000 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%23ffffff08" points="0,1000 1000,0 1000,1000"/></svg>');
+    background-size: cover;
+}
+
+.hero-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: var(--shadow-lg);
+    transition: var(--transition);
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+}
+
