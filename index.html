@@ -15,6 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -438,10 +439,137 @@
             </div>
         </div>
     </section>
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-divider mx-auto"></div>
+                    <p class="lead">Ready to start your next project? Let's work together to create something amazing.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="row g-4">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="contact-info text-center p-4 h-100">
+                                <div class="contact-icon mb-3">
+                                    <i class="bi bi-envelope display-4 text-primary"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <p class="text-muted mb-0">buddimaraya16@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="contact-info text-center p-4 h-100">
+                                <div class="contact-icon mb-3">
+                                    <i class="bi bi-telephone display-4 text-primary"></i>
+                                </div>
+                                <h5>Phone</h5>
+                                <p class="text-muted mb-0">072-5645053</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="contact-info text-center p-4 h-100">
+                                <div class="contact-icon mb-3">
+                                    <i class="bi bi-geo-alt display-4 text-primary"></i>
+                                </div>
+                                <h5>Location</h5>
+                                <p class="text-muted mb-0">Ambalngoda, Sri Lanka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-5">
+                            <form id="contactForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" id="subject" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                                            <i class="bi bi-send me-2"></i>Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <footer class="py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="gradient-text mb-3">Buddheema Ryan</h5>
+                    <p class="text-muted">
+                        Full Stack Developer passionate about creating beautiful, functional, and 
+                        user-centered digital experiences. Let's build something amazing together.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="#about" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="#skills" class="text-muted text-decoration-none">Skills</a></li>
+                        <li><a href="#projects" class="text-muted text-decoration-none">Projects</a></li>
+                        <li><a href="#contact" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="mb-3">Connect With Me</h6>
+                    <div class="social-links">
+                        <a href="https://github.com/BuddheemaRyan" class="social-link me-3">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="www.linkedin.com/in/buddheema-ryan" class="social-link me-3">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">
+                        © 2025 Buddheema Ryan. Made with <i class="bi bi-heart-fill text-danger"></i> .
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">Built with Bootstrap & JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js" defer></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
