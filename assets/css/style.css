@@ -175,5 +175,22 @@ html {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
 }
+.skill-category {
+    transition: var(--transition);
+}
 
+.skill-category:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
+
+.progress {
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.progress-bar {
+    background: var(--gradient);
+    width: 0;
+    transition: width 2s ease-in-out;
+}
 
