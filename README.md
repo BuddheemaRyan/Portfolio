@@ -73,5 +73,3 @@ No build tools or dependencies are required. Simply open the project in a browse
 - LinkedIn: [buddheema-ryan](https://www.linkedin.com/in/buddheema-ryan)
 
 ---
-
-> Built with ❤️ by Buddheema Ryan
