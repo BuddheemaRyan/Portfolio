@@ -1,6 +1,6 @@
 # Buddheema Ryan — Personal Portfolio
 
-A responsive personal portfolio website showcasing my skills, projects, and experience as an aspiring software developer.
+A responsive personal portfolio website showcasing my skills, projects as an aspiring software developer.
 
 ## 🌐 Live Demo
 
